@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migration:create": "node-pg-migrate create -m=src/infra/migrations"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/leonardo-cabral67/easy-log-server#readme",
   "dependencies": {
-    "fastify": "^5.6.2"
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.2",
+    "node-pg-migrate": "^8.0.3",
+    "pg": "^8.16.3"
   }
 }
