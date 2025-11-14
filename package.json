@@ -13,9 +13,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/leonardo-cabral67/easy-log-server/issues"
   },
-  "homepage": "https://github.com/leonardo-cabral67/easy-log-server#readme"
+  "homepage": "https://github.com/leonardo-cabral67/easy-log-server#readme",
+  "dependencies": {
+    "fastify": "^5.6.2"
+  }
 }
